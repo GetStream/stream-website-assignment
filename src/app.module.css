@@ -1,0 +1,20 @@
+.appContainer {
+  margin: 0 auto;
+  padding: 40px;
+  max-width: var(--app-width);
+  display: flex;
+}
+
+.appNav {
+  border: 1px solid black;
+  padding: 40px;
+  width: var(--app-nav-width);
+}
+
+.appMain {
+  border: 1px solid black;
+  padding: 40px;
+  flex: 1;
+}
+
+
