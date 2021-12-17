@@ -1,25 +1,36 @@
 # Dashboard & Chat
 
-The goal for this at-home assignment is to build a React app that resembles the following two images closely. The idea is that we can see how you work from an image to an actual product. You'll implement two pages of this hospital app. The first being a global dashboard and the second a page where you can chat with doctors. 
+The goal for this take-home assignment is to build a React app that resembles the following two images closely. The idea is that we can see how you work from an image to an actual product. You'll implement the dashboard of this hospital app.
 
-![dashboard screen](https://user-images.githubusercontent.com/1172870/135575305-b7444eac-b357-493b-8bdf-34400a2cba5d.png)
+We created a skeleton app using [Vite](https://vitejs.dev/) and an API to fetch data from. You can customize the project as much as you want (or use other tooling if you prefer).
 
-![chat screen](https://user-images.githubusercontent.com/1172870/135575256-38e306d5-5dd2-41fe-9fb7-d4fe0bb99ad2.png)
+![dashboard screen](./dashboard.png)
+
+## Install and run
+
+To install project dependencies, you can run `yarn`.
+After that, you can run the application using `yarn start`. This command will run two scripts concurrently:
+
+1. `yarn dev`
+2. `node ./api/index.js`
+
+The mock API should be available on `http://localhost:3005/hospital`.
 
 ## Requirements
 
 - Follow the design as closely as possible
-- Implement "Dashboard" & "Dr. Profiles"
-- Use Stream Chat to implement the "Dr. Profiles" page ([use our free trial account](https://getstream.io/chat/trial/))
+- Make it responsive. You can use your own judgment to decide what that should look like.
+- Fetch the data from the API, and display it as shown on the design. Every new request will return new data, so you can be creative here ;)
 - Style the different states (hover, active, etc.)
 
 ## Notes
-- For images placeholders/screenshots of the design can be used
-- For icons use an open source library like fontawesome
+
+- You can find the images and icons in the `/src/assets/` folder
 
 ## Deliverable
 
-- A public repository we can pull and run `yarn; yarn start` to be able to view the project
+- A code repository we can pull and run `yarn; yarn start` on to be able to view the project
+- The repository can be public, or a private github one shared with `jaapbakker88`, `tatianainama` and `rbp`
 
 ## Deadline
 
@@ -28,6 +39,5 @@ The goal for this at-home assignment is to build a React app that resembles the 
 
 ## Bonus points
 
-- Use React and make Components
 - Add animations
 - Use a design system
