@@ -28,7 +28,8 @@ The mock API should be available on `http://localhost:3005/hospital`.
 
 ## Deliverable
 
-- A public repository we can pull and run `yarn; yarn start` to be able to view the project
+- A code repository we can pull and run `yarn; yarn start` on to be able to view the project
+- The repository can be public, or a private github one shared with `jaapbakker88`, `tatianainama` and `rbp`
 
 ## Deadline
 
