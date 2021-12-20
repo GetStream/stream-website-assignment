@@ -1,6 +1,6 @@
 # Dashboard & Chat
 
-The goal for this take-home assignment is to build a React app that resembles the following two images closely. The idea is that we can see how you work from an image to an actual product. You'll implement the dashboard of this hospital app.
+The goal for this take-home assignment is to build a React app that resembles the following image closely. The idea is that we can see how you work from an image to an actual product. You'll implement the dashboard of this hospital app.
 
 We created a skeleton app using [Vite](https://vitejs.dev/) and an API to fetch data from. You can customize the project as much as you want (or use other tooling if you prefer).
 
