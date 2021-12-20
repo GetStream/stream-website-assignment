@@ -1,4 +1,4 @@
-# Dashboard & Chat
+# Stream Website Assignment - Dashboard
 
 The goal for this take-home assignment is to build a React app that resembles the following image closely. The idea is that we can see how you work from an image to an actual product. You'll implement the dashboard of this hospital app.
 
